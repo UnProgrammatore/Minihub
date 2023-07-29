@@ -1,0 +1,49 @@
+body {
+  background-color: #333333;
+  align-items: center;
+}
+
+.linkcard {
+  background-color: #555555;
+  padding: 10px;
+  margin: 30px auto;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+}
+
+.linkimage {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  flex: 0 1
+}
+
+.linkname {
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px 10px;
+  font-size: 25px;
+  color: #EEEEEE;
+  font-weight: bolder;
+}
+
+.linkstar {
+  display: inline-block;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.linklink {
+  display: inline-block;
+  flex-grow: 100;
+}
+
+.staricon {
+  width: 25px;
+  height: 25px;
+  color: #999999;
+}
